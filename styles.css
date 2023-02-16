@@ -14,12 +14,13 @@ header, footer{
 }
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 150px;
     background-color: #141a1a;
     color: white;
 }
 h1{
+    font-size: 24px;
     margin: 0;
     padding:50px 0 0 32px;
 }
@@ -62,7 +63,7 @@ main{
 main img{
     float: left;
 }
-main p,ul{
+main p, ul{
     display: inline-block;
 }
 main p{
